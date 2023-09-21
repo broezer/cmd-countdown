@@ -34,7 +34,7 @@ let countdownInterval;
 
 function startCountdown() {
     stopCountdown()
-    var audio = new Audio('../assets/mlg-airhorn.mp3');
+    var audio = new Audio('./assets/mlg-airhorn.mp3');
 
     console.log(obj.inputTime);
     const minutes = parseInt(obj.inputTime);
